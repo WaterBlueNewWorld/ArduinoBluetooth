@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="chalup420.blazeitnibba"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="14" />
+9-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml:6:5-73
+12-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml:6:22-71
+13
+14    <application
+14-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml:8:5-23:19
+15        android:allowBackup="true"
+15-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml:9:9-35
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml:11:9-41
+19        android:theme="@style/AppTheme" >
+19-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml:12:9-40
+20        <activity
+20-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml:13:9-21:20
+21            android:name="chalup420.blazeitnibba.DeviceListActivity"
+21-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml:14:13-47
+22            android:label="@string/app_name" >
+22-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml:15:13-45
+23            <intent-filter>
+23-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml:16:13-20:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml:17:17-69
+24-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml:17:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml:19:17-77
+26-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml:19:27-74
+27            </intent-filter>
+28        </activity>
+29        <activity android:name="chalup420.blazeitnibba.MainActivity" />
+29-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml:22:9-59
+29-->C:\Users\aleja\Documents\blazeitnibba\app\src\main\AndroidManifest.xml:22:19-47
+30
+31        <meta-data
+31-->[com.android.support:appcompat-v7:26.1.0] C:\Users\aleja\.gradle\caches\transforms-2\files-2.1\acc4d0e79c8400aaff4130c1ad540d71\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
+32            android:name="android.support.VERSION"
+32-->[com.android.support:appcompat-v7:26.1.0] C:\Users\aleja\.gradle\caches\transforms-2\files-2.1\acc4d0e79c8400aaff4130c1ad540d71\appcompat-v7-26.1.0\AndroidManifest.xml:27:13-51
+33            android:value="26.1.0" />
+33-->[com.android.support:appcompat-v7:26.1.0] C:\Users\aleja\.gradle\caches\transforms-2\files-2.1\acc4d0e79c8400aaff4130c1ad540d71\appcompat-v7-26.1.0\AndroidManifest.xml:28:13-35
+34        <meta-data
+34-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\aleja\.gradle\caches\transforms-2\files-2.1\c03725f5f6ac78c6959e798a23254674\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+35            android:name="android.arch.lifecycle.VERSION"
+35-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\aleja\.gradle\caches\transforms-2\files-2.1\c03725f5f6ac78c6959e798a23254674\runtime-1.0.0\AndroidManifest.xml:26:13-58
+36            android:value="27.0.0-SNAPSHOT" />
+36-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\aleja\.gradle\caches\transforms-2\files-2.1\c03725f5f6ac78c6959e798a23254674\runtime-1.0.0\AndroidManifest.xml:27:13-44
+37    </application>
+38
+39</manifest>
